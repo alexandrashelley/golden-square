@@ -21,4 +21,4 @@ RSpec.describe PasswordChecker do
     expect { (result.check(1234)) }. to raise_error NoMethodError # because .length method can only be called on strings
   end
 end
-  
+
